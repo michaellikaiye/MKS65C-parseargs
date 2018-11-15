@@ -18,7 +18,7 @@ char ** parse_args( char * line) {
 
 
 int main(){
-  char line[100]="ls -a -l";
+  char line[100]="ls -a -l --color";
   //scanf("%s", line);
   char ** args = parse_args(line);
   
